@@ -121,7 +121,7 @@ int main(int argc, char** argv) {
 		SDL_GL_SwapWindow(mainwindow);
 		waitforFrameEnd();
 	}
-
+	PhysicsCleanup();
 	ImGui_ImplSdlGL3_Shutdown();
 	SDL_GL_DeleteContext(maincontext);
 	SDL_DestroyWindow(mainwindow);
