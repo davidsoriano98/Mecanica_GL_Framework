@@ -45,10 +45,10 @@
     <ClCompile Include="src\RandomStaticParticles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ParticleSystem.cpp">
+    <ClCompile Include="src\ParticleSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TeleportingParticles.cpp">
+    <ClCompile Include="src\TeleportingParticles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
