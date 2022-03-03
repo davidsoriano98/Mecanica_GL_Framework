@@ -14,8 +14,13 @@ public:
 
 	void SetParticleVelocity(int particleId, glm::vec3 velocity);
 	glm::vec3 GetParticleVelocity(int particleId);
+
 private:
 	int maxParticles;
+
 	glm::vec3 *positions;
+
 	glm::vec3 *velocities;
+
+	glm::vec3 acceleration = { 0.0f, -9.81f, 0.0f };
 };
