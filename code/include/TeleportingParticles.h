@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 
 #include "Simulator.h";
 #include "ParticleSystem.h"
